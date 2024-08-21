@@ -1,0 +1,186 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0e0909;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #E0E0E0;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    font-size: 28px;
+    text-decoration: none;
+    color: #0056A0;
+}
+
+h1 {
+    font-size: 24px;
+    color: #003D6C;
+    margin: 0;
+    text-align: center;
+    flex: 1;
+}
+
+.profile-section .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-info h2 {
+    font-size: 20px;
+    color: #003D6C;
+    margin: 0;
+}
+
+.profile-info p {
+    font-size: 14px;
+    color: #9E9E9E;
+    margin: 5px 0 0;
+}
+
+.profile-picture img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #DADADA;
+    border: 2px solid #003D6C;
+}
+
+.goal-section {
+    background-color: #003D6C;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.goal-section h3 {
+    font-size: 18px;
+    margin: 0 0 15px 0;
+}
+
+.goal-arc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progress {
+    position: relative;
+}
+
+.semi-circle {
+    width: 200px;
+    height: 100px;
+    background-color: #FFC107;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.percentage {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.goal-metrics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.metric {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+}
+
+.metric span {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #f3ebeb;
+}
+
+.metric-bar {
+    width: 80%;
+    height: 15px;
+    background-color: #FFC107;
+    border-radius: 5px;
+    position: relative;
+}
+
+.emg-bar {
+    background-color: #FF7043; /* EMG color */
+}
+
+.rom-bar {
+    background-color: #42A5F5; /* ROM color */
+}
+
+.metric-bar:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%; /* Adjust the width to simulate progress */
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+.details-section p {
+    font-size: 16px;
+    margin: 12px 0;
+}
+
+.details-section a {
+    color: #0a0909;
+    text-decoration: none;
+    /* align-content: center; */
+}
+
+.details-section a:hover {
+    text-decoration: underline;
+    
+}
+
+.medical-history-section {
+    padding-top: 15px;
+    border-top: 2px solid #b62222;
+}
+
+.medical-history-section h3 {
+    font-size: 18px;
+    color: #003D6C;
+}
+
+.medical-history-section p {
+    font-size: 16px;
+    margin: 5px 0 0 0;
+    color: #424242;
+}
